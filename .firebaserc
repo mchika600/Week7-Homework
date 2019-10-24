@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "java-facts-using-angular-mc": {
+      "hosting": {
+        "java-facts-using-angular": [
+          "java-facts-using-angular-mc"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "java-facts-using-angular",
+      "public": "dist/java-facts-using-angular",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<mat-card>
+        <!-- Sign in User-->
+        <div *ngIf = "isLogin">
+            <h3>Sign In</h3>
+            <button size="small" mat-stroked-button (click) = "changeType('signup')">
+                New User?
+            </button>
+        </div>
+        <!-- Reset Password-->
+        <div *ngIf = "isPasswordReset">
+            <h3>Reset Password--</h3>
+            <button size="small" mat-button (click) = "changeType('login')">
+                Go Back
+            </button>
+        </div>
+</mat-card>
