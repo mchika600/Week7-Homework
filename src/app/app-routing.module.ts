@@ -12,7 +12,7 @@ import { WeakmapWeaksetComponent } from './fun-facts/weakmap-weakset/weakmap-wea
 
 const routes: Routes = [
   {
-    path: 'login', loadChildren: () => import('./fun-facts/fun-facts.module').then(m => m.FunFactsModule)
+    path: 'login', loadChildren: () => import('./user/user.module').then(m => m.UserModule)
   },
   {
     path: 'arrow', component: ArrowComponent,

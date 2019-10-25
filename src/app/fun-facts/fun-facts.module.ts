@@ -12,6 +12,7 @@ import { TemplateStringsComponent } from './template-strings/template-strings.co
 import { WeakmapWeaksetComponent } from './weakmap-weakset/weakmap-weakset.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { EmailLoginComponent } from './email-login/email-login.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 
@@ -24,6 +25,7 @@ import { EmailLoginComponent } from './email-login/email-login.component';
   ],
   imports: [
     CommonModule,
+    MatCardModule
   ],
   exports: [
     ArrowComponent,
@@ -35,6 +37,8 @@ import { EmailLoginComponent } from './email-login/email-login.component';
     SetsComponent,
     TemplateStringsComponent,
     WeakmapWeaksetComponent,
+    LoginPageComponent,
+    EmailLoginComponent
   ]
 })
 export class FunFactsModule { }
